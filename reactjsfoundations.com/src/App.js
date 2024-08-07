@@ -73,7 +73,7 @@ function App(props) {
 
             <br />
             <br />
-            <WpBlogWidget posts="3" title="Latest Blog Posts" />
+            {/* <WpBlogWidget posts="3" title="Latest Blog Posts" /> */}
           </div>
         </Suspense>
       </div>
