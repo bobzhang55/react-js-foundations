@@ -3,7 +3,7 @@
 class HelloWorld extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { personName: "World" };
+    this.state = { personName: "Bob Z" };
   }
 
   render() {
