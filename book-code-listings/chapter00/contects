@@ -1,0 +1,430 @@
+Table of Contents
+Introduction Xxvii
+Chapter 1: Hello, World! 1
+React without a Build Toolchain 1
+Interactive “Hello, World” with Create React App and JSX 7
+Summary 9
+Chapter 2: The Foundation of React 11
+What’s in a Name? 11
+UI Layer 12
+Virtual DOM 13
+The Philosophy of React 14
+Thinking in Components 15
+Composition vs. Inheritance 15
+React Is Declarative 16
+React Is Idiomatic 17
+Why Learn React? 17
+React vs.... 18
+React vs. Angular 18
+React vs. Vue 19
+What React Is Not 19
+React Is Not a Web Server 20
+React Is Not a Programming Language 20
+React Is Not a Database Server 21
+React Is Not a Development Environment 21
+React Is Not the Perfect Solution to Every Problem 21
+Summary 21
+Chapter 3: JSX 23
+JSX Is Not HTML 23
+What Is JSX? 30
+How JSX Works 30
+Transpiler . . . Huh? 31
+Compilation vs. Transpilation 31
+JSX Transform 31
+Introducing Babel 31
+Eliminating Browser Incompatibilities 33
+Syntax Basics of JSX 33
+JSX Is JavaScript XML 33
+Beware of Reserved Words 33
+JSX Uses camelCase 33
+Preface Custom Attributes in DOM Elements with data-34
+JSX Boolean Attributes 34
+Use Curly Braces to Include Literal JavaScript 35
+Remember to Use Double Curly Braces with Objects 35
+Put Comments in Curly Braces 35
+When to Use JavaScript in JSX 36
+Conditionals in JSX 36
+Conditional Rendering with if/else and Element Variables 36
+Conditional Rendering with the && Operator 37
+Conditional Rendering with the Conditional Operator 38
+Expressions in JSX 38
+Using Children in JSX 40
+React Fragments 40
+Summary 41
+Chapter 4: All About Components 43
+What Is a Component? 43
+Components vs. Elements 44
+Components Define Elements 44
+Elements Invoke Components 45
+Built-in Components 47
+HTML Element Components 47
+Attributes vs. Props 52
+Passing Props 52
+Accessing Props 52
+Standard HTML Attributes 54
+Non-Standard Attributes 56
+Custom Attributes 56
+User-Defined
+Components 56
+Types of Components 56
+Class Components 57
+Stepping through a React Class Component 68
+React.Component 68
+Importing React.Component 68
+The Class Header 69
+The Constructor Function 69
+Managing State in Class Components 71
+The Render Function 73
+Creating and Using Props 74
+Function Components 76
+What Are Function Components? 79
+How to Write Function Components 79
+Optimizations and Function Component Shortcuts 80
+Managing State in Function Components 83
+Differences between Function and Class Components 84
+React Component Children 84
+this.props.children 85
+Manipulating Children 86
+React.Children 86
+isValidElement 87
+cloneElement 87
+The Component Lifecycle 89
+Mounting 90
+constructor() 90
+static getDerivedStateFromProps 90
+render 90
+componentDidMount() 90
+Updating 90
+shouldComponentUpdate 91
+getSnapshotBeforeUpdate 91
+componentDidUpdate 92
+Unmounting 92
+componentWillUnmount 92
+Error Handling 92
+getDerivedStateFromError 92
+componentDidCatch 92
+Improving Performance and Avoiding Errors 92
+Avoiding Memory Leaks 93
+React.PureComponent 96
+React.memo 97
+React.StrictMode 98
+Rendering Components 98
+Rendering with ReactDOM 98
+Virtual DOM 100
+Other Rendering Engines 101
+React Native 101
+ReactDOMServer 102
+React Konsul 103
+react-pdf 103
+Component Terminology 103
+Summary 104
+Chapter 5: React Devtools 105
+Installation and Getting Started 105
+Inspecting Components 107
+Working with the Component Tree 108
+Searching for Components 110
+Using the Search Input Box 110
+Using Regular Expressions 110
+Filtering Components 112
+Selecting Components 114
+Editing Component Data in DevTools 114
+Working with Additional DevTools Functionality 118
+Profiling 119
+Summary 121
+Chapter 6: React Data Flow 123
+One-Way
+Data Flow 123
+Understanding One-Way
+Data Flow 124
+Why One-Way
+Data Flow? 125
+Props 126
+Components Receive Props 126
+Props Can Be Any Data Type 126
+Props Are Read-Only 127
+Validating Incoming Props with PropTypes 129
+What Is PropTypes? 130
+Getting Started with PropTypes 131
+What Can PropTypes Validate? 133
+Default Props 141
+React State 145
+What Is state? 146
+Initializing state 146
+Initializing state in Class Components 146
+Initializing State in Function Components 147
+The Difference between state and props 149
+Updating state 149
+Updating a Class Component’s state with setState 150
+Updating state with Function Components 154
+What to Put in State 161
+Building the Reminders App 161
+What Not to Put in State 168
+Where to Put State 168
+Lifting State Up 170
+About the key Prop 177
+Filtering the Reminders 183
+Implementing the isComplete Changing Functionality 188
+Converting to Class Components 190
+Summary 198
+Chapter 7: Events 199
+How Events Work in React 199
+What Is SyntheticEvent? 201
+Using Event Listener Attributes 202
+The Event Object 203
+Supported Events 204
+Event Handler Functions 211
+Writing Inline Event Handlers 211
+Writing Event Handlers in Function Components 212
+Writing Event Handlers in Class Components 213
+Binding Event Handler Functions 214
+Using bind 215
+Using Arrow Functions 216
+Passing Data to Event Handlers 218
+Summary 219
+Chapter 8: Forms 221
+Forms Have State 221
+Controlled Inputs vs. Uncontrolled Inputs 222
+Updating a Controlled Input 223
+Controlling an Input in a Function Component 224
+Controlling an Input in a Class Component 224
+Lifting Up Input State 226
+Using Uncontrolled Inputs 228
+Using Different Form Elements 229
+Controlling the Input Element 230
+Controlling a textarea 230
+Controlling a Select Element 231
+Preventing Default Actions 231
+Summary 232
+Chapter 9: Refs 233
+What Refs Are 233
+How to Create a Ref in a Class Component 234
+How to Create a Ref in a Function Component 234
+Using Refs 234
+Creating a Callback Ref 236
+When to Use Refs 238
+When Not to Use Refs 238
+Examples 239
+Managing Focus 239
+Automatically Selecting Text 239
+Controlling Media Playback 241
+Setting Scroll Position 241
+Summary 242
+Chapter 10: Styling React 243
+The Importance of Styles 243
+Importing CSS into the HTML File 244
+Using Plain Old CSS in Components 245
+Writing Inline Styles 247
+JavaScript Style Syntax 248
+Why to Use Inline Styles 249
+Why Not to Use Inline Styles 249
+Improving Inline Styles with Style Modules 249
+CSS Modules 250
+Naming CSS Module Files 251
+Advanced CSS Modules Functionality 252
+Global Classes 252
+Class Composition 252
+CSS-in- JS and Styled Components 253
+Summary 255
+Chapter 11: Introducing Hooks 257
+What Are Hooks? 257
+Why Were Hooks Introduced? 257
+Rules of Hooks 259
+The Built-in Hooks 259
+Managing State with useState 260
+Setting the Initial State 262
+Using the Setter Function 262
+Passing a Value to a Setter 263
+Passing a Function to a Setter 263
+Setter Function Value Comparison 264
+Hooking into the Lifecycle with useEffect 264
+Using the Default useEffect Behavior 265
+Cleaning Up After Effects 265
+Customizing useEffect 266
+Running Asynchronous Code with useEffect 270
+Subscribing to Global Data with useContext 272
+Combining Logic and State with useReducer 273
+Memoized Callbacks with useCallback 275
+Caching Computed Values with useMemo 278
+Solving Unnecessary Renders 278
+Solving Performance Problems 279
+Accessing Children Imperatively with useRef 279
+Customizing Exposed Values with useImperativeHandle 280
+Updating the DOM Synchronously with useLayoutEffect 281
+Writing Custom Hooks 281
+Labeling Custom Hooks with useDebugValue 283
+Finding and Using Custom Hooks 285
+use-http 285
+react-fetch-hook 286
+axios-hooks 286
+react-hook- form 286
+@rehooks/local-storage 287
+use-local- storage- state 287
+Other Fun Hooks 288
+Lists of Hooks 288
+Summary 288
+Chapter 12: Routing 289
+What Is Routing? 289
+How Routing Works in React 291
+Using React Router 293
+Installing and Importing react-router- dom 293
+The Router Component 294
+Selecting a Router 294
+Using the Router Component 295
+Linking to Routes 296
+Internal Linking with Link 296
+Internal Navigation with NavLink 298
+Automatic Linking with Redirect 302
+Creating Routes 302
+Restricting Path Matching 304
+Using URL Parameters 304
+The component Prop 305
+Render Props 306
+Switching Routes 307
+Rendering a Default Route 308
+Routing with Redirect 308
+Behind the Scenes: location, history, and match 309
+The history Object 310
+The location Object 313
+The match Object 313
+React Router Hooks 317
+useHistory 317
+useLocation 317
+useParams 317
+useRouteMatch 317
+Summary 318
+Chapter 13: Error Boundaries 319
+The Best Laid Plans 319
+What Is an Error Boundary? 320
+Implementing an Error Boundary 323
+Building Your Own ErrorBoundary Component 323
+getDerivedStateFromErrors Is a Static Method 324
+getDerivedStateFromErrors Runs During the Render Phase 325
+getDerivedStateFromErrors Receives the Error as a Parameter 325
+getDerivedStateFromErrors Should Return an Object for Updating State 325
+Testing Your Boundary 326
+Logging Errors with ComponentDidCatch() 327
+Using a Logging Service 328
+Resetting the State 333
+Installing a Pre-Built ErrorBoundary Component 334
+What Can’t an Error Boundary Catch? 336
+Catching Errors in Error Boundaries with try/catch 336
+Catching Errors in Event Handlers with react-error- boundary 337
+Summary 338
+Chapter 14: Deploying React 339
+What Is Deployment? 339
+Building an App 339
+Running the build Script 340
+Examining the build Directory 340
+The Built index.html 341
+The static Directory 342
+asset-manifest. json 342
+What’s in a Name? 343
+How Is a Deployed App Different? 343
+Development Mode vs. Production 343
+Putting It on the Web 344
+Web Server Hosting 344
+Node Hosting 345
+Deploying with Netlify 345
+Enabling Routing with Netlify 347
+Enabling Custom Domains and HTTPS 348
+Summary 349
+Chapter 15: Initialize a React Project from Scratch 351
+Building Your Own Toolchain 351
+Initializing Your Project 352
+The HTML Document 352
+The Main JavaScript File 353
+The Root Component 353
+Running in the Browser 354
+How Webpack Works 357
+Loaders 358
+Plugins 358
+Automating Your Build Process 358
+Making an HTML Template 359
+Development Server and Hot Reloading 360
+Testing Tools 360
+Installing and Configuring ESLint 360
+ESLint Configuration 361
+How to Fix Errors 362
+Testing with Jest 363
+Creating NPM Scripts 364
+Structuring Your Source Directory 365
+Grouping by File Type 366
+Grouping by Features 367
+Summary 367
+Chapter 16: Fetching and Caching Data 369
+Asynchronous Code: It’s All About Timing 369
+JavaScript Never Sleeps 370
+Where to Run Async Code in React 374
+Ways to Fetch 376
+Getting Data with Fetch 377
+Getting Data with Axios 377
+Using Web Storage 379
+Two Types of Web Storage 379
+When to Use Web Storage 380
+When Not to Use Web Storage 380
+Web Storage Is Synchronous 380
+Working with localStorage 381
+Storing Data with localStorage 381
+Reading Data from localStorage 382
+Removing Data from localStorage 384
+Summary 385
+Chapter 17: Context Api 387
+What Is Prop Drilling? 387
+How Context API Solves the Problem 388
+Creating a Context 388
+Creating a Provider 389
+Consuming a Context 390
+Using Context in a Class Component 390
+Using Context in a Function Component 391
+Common Use Cases for Context 391
+When Not to Use Context 392
+Composition as an Alternative to Context 392
+Example App: User Preferences 396
+Summary 398
+Chapter 18: React Portals 399
+What Is a Portal? 399
+How to Make a Portal 399
+Why Not Just Render Multiple Component Trees? 403
+Common Use Cases 403
+Rendering and Interacting with a Modal Dialog 404
+Managing Keyboard Focus with Modals 409
+Summary 411
+Chapter 19: Accessibility in React 413
+Why Is Accessibility Important? 413
+Accessibility Basics 414
+Web Content Accessibility Guidelines (WCAG) 414
+Web Accessibility Initiative –Accessible Rich Internet Applications (WAI-ARIA) 415
+Implementing Accessibility in React Components 415
+ARIA Attributes in React 416
+Semantic HTML 416
+Form Accessibility 417
+Focus Control in React 418
+Skip Links 418
+Managing Focus Programmatically 419
+Media Queries in React 420
+Media Queries in Included CSS 421
+Using useMediaQuery 422
+Summary 422
+Chapter 20: Going Further 425
+Testing 425
+Mocha 426
+Enzyme 426
+Chai 427
+Assert 427
+Expect 428
+Should 428
+Karma 428
+Nightwatch.js 428
+Server-Side
+Rendering 429
+Flux 430
+Redux 430
+GraphQL 432
+Apollo 433
+React Native 434
+Next.js 434
+Gatsby 434
+People to Follow 435
+Useful Links and Resources 435
+Summary 436
+Index 437 
