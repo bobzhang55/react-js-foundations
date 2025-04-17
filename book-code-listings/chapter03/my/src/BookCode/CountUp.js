@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-function CountUp() {
-  const [count, setCount] = useState(0);
+export function CountUp() {
+  const [count, setCount] = useState(11);
   return (
     <>
       <div>
@@ -13,4 +13,4 @@ function CountUp() {
   );
 }
 
-export default CountUp;
+// export default CountUp;

@@ -3,7 +3,7 @@ export function ImmediateInvoke() {
     <>
       <div>
         {(() => (
-          <h1>The Header</h1>
+          <h1>Hello Bob</h1>
         ))()}
       </div>
       
