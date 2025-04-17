@@ -1,6 +1,6 @@
 import WelcomeMessage from "./WelcomeMessage";
 
-function WelcomeTitle() {
+export function WelcomeTitle() {
   return (
     <>
       <WelcomeMessage />
@@ -9,4 +9,4 @@ function WelcomeTitle() {
   );
 }
 
-export default WelcomeTitle;
+// export default WelcomeTitle;
