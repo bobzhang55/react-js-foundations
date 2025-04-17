@@ -1,7 +1,7 @@
 import Header from "./Header";
-import Login from "./Login";
+import { Login } from "./Login";
 
-function Welcome({ loggedIn }) {
+export function Welcome({ loggedIn }) {
   let header;
 
   if (loggedIn) {
@@ -17,4 +17,4 @@ function Welcome({ loggedIn }) {
   );
 }
 
-export default Welcome;
+// export default Welcome;
