@@ -1,6 +1,6 @@
 import React from "react";
 
-function Login() {
+export function Login() {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(`logging in ${e.target[0].value}`);
@@ -21,4 +21,4 @@ function Login() {
   );
 }
 
-export default Login;
+// export default Login;
