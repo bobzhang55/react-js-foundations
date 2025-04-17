@@ -1,7 +1,7 @@
 import React from "react";
-import CartItems from "./CartItems";
-import DisplayTotal from "./DisplayTotal";
-import CheckoutButton from "./CheckoutButton";
+import CartItems from "./CartItems.js";
+import DisplayTotal from "./DisplayTotal.js";
+import CheckoutButton from "./CheckoutButton.js";
 import styles from "./Cart.css.js";
 
 function Cart(props) {
@@ -16,7 +16,7 @@ function Cart(props) {
 
         <CheckoutButton />
       </div>
-      
+
     </>
   );
 }

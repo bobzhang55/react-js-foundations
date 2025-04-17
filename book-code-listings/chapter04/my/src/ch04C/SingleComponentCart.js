@@ -1,24 +1,24 @@
 import React, { useState } from "react";
-import styles from "./Cart.css.js";
+import styles from "../ch04B/Cart.css.js";
 
 function Cart(props) {
-  const [inCart, setInCart] = useState(props.inCart);
+  const [inCartItems, setInCart] = useState(props.inCart);
 
   const removeFromCart = (item) => {
-    const index = inCart.indexOf(item);
-    const newCart = [...inCart.slice(0, index), ...inCart.slice(index + 1)];
+    const index = inCartItems.indexOf(item);
+    const newCart = [...inCartItems.slice(0, index), ...inCartItems.slice(index + 1)];
     setInCart(newCart);
   };
 
-  const calculatedTotal = inCart.reduce(
+  const calculatedTotal = inCartItems.reduce(
     (accumulator, item) => accumulator + (item.price || 0),
     0
   );
 
-  let ItemList = inCart.map((item) => {
+  let ItemList = inCartItems.map((item) => {
     return (
       <div key={item.id}>
-        {item.title} - {item.price}
+        {item.id}  ----   {item.title}   ----   {item.price}
         <button
           onClick={() => {
             removeFromCart(item);
@@ -41,13 +41,13 @@ function Cart(props) {
 
         <button>Checkout</button>
       </div>
-      
+
     </>
   );
 }
 
-Cart.defaultProps = {
-  inCart: [{ id: 1, title: "React JS Foundations", price: 5 }],
-};
+// Cart.defaultProps = {
+//   inCart: [{ id: 1, title: "React JS Foundations", price: 5 }],
+// };
 
 export default Cart;

@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import Item from "./Item.js";
 
 function CartItems(props) {
-  const [inCart] = useState(props.inCart);
+  const [inCart] = useState(props.items);
 
   let ItemList = inCart.map((item) => {
     return (
-      <div>
-        item: <Item key={item.id} {...item} />
+      <div key={item.id}>
+        item: <Item  {...item} />
       </div>
     );
   });

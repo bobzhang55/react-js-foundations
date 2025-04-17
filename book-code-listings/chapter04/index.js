@@ -1,7 +1,7 @@
 export { default as WelcomeMessage } from "./WelcomeMessage";
 export { default as WelcomeTitle } from "./WelcomeTitle";
-export { default as Cart } from "./ShoppingCart/Cart";
-export { default as SingleComponentCart } from "./ShoppingCart/SingleComponentCart";
+export { default as Cart } from "./my/src/ch04B/Cart";
+export { default as SingleComponentCart } from "./my/src/ch04C/SingleComponentCart";
 export { default as Farms } from "./Farm/Farms";
 export { default as Farm } from "./Farm/Farm";
 export { default as ImprovedFarms } from "./Farm/ImprovedFarms";

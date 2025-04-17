@@ -7,7 +7,7 @@ function Item(props) {
 
   return (
     <div>
-      {props.title} - {props.price}
+      {props.id}  ----   {props.title}   ----   {props.price}
       <button onClick={handleClick}>remove</button>
     </div>
   );
