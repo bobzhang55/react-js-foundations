@@ -1,4 +1,4 @@
-function ImmediateInvoke() {
+export function ImmediateInvoke() {
   return (
     <>
       <div>
@@ -10,4 +10,4 @@ function ImmediateInvoke() {
     </>
   );
 }
-export default ImmediateInvoke;
+// export default ImmediateInvoke;
