@@ -1,6 +1,6 @@
 import React from "react";
 
-class UserProfile extends React.Component {
+export class UserProfile extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -15,4 +15,4 @@ class UserProfile extends React.Component {
   }
 }
 
-export default UserProfile;
+// export default UserProfile;
