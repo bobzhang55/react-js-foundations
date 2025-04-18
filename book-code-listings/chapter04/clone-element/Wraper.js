@@ -1,7 +1,7 @@
 import NavBar from "./NavBar";
 import NavItem from "./NavItem";
 
-function App(props) {
+export function Wraper(props) {
   return (
     <>
       <NavBar
@@ -18,4 +18,4 @@ function App(props) {
   );
 }
 
-export default App;
+// export default Wraper;

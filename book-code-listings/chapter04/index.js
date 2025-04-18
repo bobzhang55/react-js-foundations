@@ -25,7 +25,7 @@ export { default as ThingsThatILike } from "./my/src/ch04G-this.props.children/T
 export { default as CloneElementExample } from "./clone-element/App";
 export { default as NavBarChildren } from "./clone-element/NavBarChildren";
 export { default as NavBarCloneChildren } from "./clone-element/NavBarCloneChildren";
-export { default as NavBarPassingOnClick } from "./clone-element/NavBarPassingOnClick";
+export { default as NavBarPassingOnClick } from "./clone-element/WrapNavBarPassingOnClick";
 export { default as NavBarUsingOnClick } from "./clone-element/NavBarUsingOnClick";
 export { default as LeakyCounter } from "./LeakyCounter";
 export { default as CounterController } from "./CounterController";
