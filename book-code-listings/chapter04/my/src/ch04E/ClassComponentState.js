@@ -1,9 +1,9 @@
 import { Component } from "react";
 
-class ClassComponentState extends Component {
+export class ClassComponentState extends Component {
   constructor(props) {
     super(props);
-    this.state = { count: 0 };
+    this.state = { count: 55 };
     this.incrementCount = this.incrementCount.bind(this);
   }
   incrementCount() {
@@ -22,10 +22,10 @@ class ClassComponentState extends Component {
             Add 1
           </button>
         </div>
-        
+
       </>
     );
   }
 }
 
-export default ClassComponentState;
+// export default ClassComponentState;

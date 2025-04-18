@@ -9,7 +9,7 @@ import './App.css';
 // import { UserProfile as App } from './ch04D/CreateReactClass';  
 // import { UserProfile as App } from './ch04D/ReactClassComponent'; 
 // import { Foo as App } from './ch04D/UnboundFunction'; 
-import { Foo as App } from './ch04D/BoundFunction'; 
-
+// import { Foo as App } from './ch04D/BoundFunction'; 
+import { ClassComponentState as App } from './ch04E/ClassComponentState';
 
 export default App;
