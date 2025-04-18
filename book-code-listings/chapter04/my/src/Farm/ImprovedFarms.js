@@ -1,11 +1,15 @@
 import { useState } from "react";
 import ImprovedFarm from "./ImprovedFarm";
 
-export default function ImprovedFarms() {
+export  function ImprovedFarms() {
   const initialFarms = [
     {
       farmer: "Old McDonald",
       animals: ["pigs", "cows", "chickens"],
+    },
+    {
+      farmer: "Mr. Jones",
+      animals: ["pigs", "horses", "donkey", "goat"],
     },
   ];
   const [farms] = useState(initialFarms);

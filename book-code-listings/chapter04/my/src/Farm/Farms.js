@@ -1,6 +1,6 @@
 import Farm from "./Farm";
 
-export default function Farms() {
+export  function Farms() {
   return (
     <>
       <Farm farmer="Old McDonald" animals={["pigs", "cows", "chickens"]} />
