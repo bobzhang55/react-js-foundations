@@ -8,8 +8,8 @@ import './App.css';
 // import { ImprovedFarms as App } from './Farm/ImprovedFarms'; 
 // import { UserProfile as App } from './ch04D/CreateReactClass';  
 // import { UserProfile as App } from './ch04D/ReactClassComponent'; 
-import { Foo as App } from './ch04D/UnboundFunction'; 
-
+// import { Foo as App } from './ch04D/UnboundFunction'; 
+import { Foo as App } from './ch04D/BoundFunction'; 
 
 
 export default App;

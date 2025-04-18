@@ -1,6 +1,6 @@
 import React from "react";
 
-class Foo extends React.Component {
+export class Foo extends React.Component {
   constructor(props) {
     super(props);
     this.message = "hello";
@@ -23,4 +23,4 @@ class Foo extends React.Component {
   }
 }
 
-export default Foo;
+// export default Foo;
