@@ -10,6 +10,8 @@ import './App.css';
 // import { UserProfile as App } from './ch04D/ReactClassComponent'; 
 // import { Foo as App } from './ch04D/UnboundFunction'; 
 // import { Foo as App } from './ch04D/BoundFunction'; 
-import { ClassComponentState as App } from './ch04E/ClassComponentState';
+// import { ClassComponentState as App } from './ch04E/ClassComponentState';
+// import { LeakyCounter as App } from './ch04E/LeakyCounter'; 
+import { NoLeakCounter as App } from './ch04E/NoLeakCounter'; 
 
 export default App;

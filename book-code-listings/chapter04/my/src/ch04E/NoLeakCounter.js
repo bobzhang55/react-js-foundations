@@ -1,6 +1,6 @@
 import { Component } from "react";
 
-class NoLeakCounter extends Component {
+export class NoLeakCounter extends Component {
   constructor() {
     super();
     this.state = { count: 0 };
@@ -9,7 +9,7 @@ class NoLeakCounter extends Component {
 
   incrementCount() {
     this.setState({ count: this.state.count + 1 });
-    console.log(this.state.count);
+    console.log(this.state.count);//setState() is asynchronous
   }
 
   componentDidMount() {
@@ -26,9 +26,9 @@ class NoLeakCounter extends Component {
     return (
       <>
         <p>The current count is: {this.state.count}.</p>
-        
+
       </>
     );
   }
 }
-export default NoLeakCounter;
+// export default NoLeakCounter;
