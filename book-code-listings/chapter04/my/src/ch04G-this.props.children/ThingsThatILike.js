@@ -1,7 +1,7 @@
 import ThingsThatAreFunny from "./ThingsThatAreFunny";
 import Joke from "./Joke";
 
-export default function ThingsILike(props) {
+export  function ThingsILike(props) {
   return (
     <>
       <ThingsThatAreFunny>
@@ -14,7 +14,7 @@ export default function ThingsILike(props) {
           </li>
         </ul>
       </ThingsThatAreFunny>
-      
+
     </>
   );
 }

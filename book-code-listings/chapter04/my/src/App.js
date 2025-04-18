@@ -16,7 +16,9 @@ import './App.css';
 // import { FigureList as App } from './Figure/FigureList'; 
 // import { FigureList as App } from './Figure/FigureListProps';
 // import { ToDoClass as App } from './ch04F-Class-Func/ToDoClass';
-import { ToDoFunction as App } from './ch04F-Class-Func/ToDoFunction';
+// import { ToDoFunction as App } from './ch04F-Class-Func/ToDoFunction';
+// import { LoginForm as App } from './LoginForm/LoginForm';
+import { ThingsILike as App } from './ch04G-this.props.children/ThingsThatILike';
 
 
 
