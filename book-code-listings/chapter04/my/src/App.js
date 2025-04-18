@@ -12,6 +12,9 @@ import './App.css';
 // import { Foo as App } from './ch04D/BoundFunction'; 
 // import { ClassComponentState as App } from './ch04E/ClassComponentState';
 // import { LeakyCounter as App } from './ch04E/LeakyCounter'; 
-import { NoLeakCounter as App } from './ch04E/NoLeakCounter'; 
+// import { NoLeakCounter as App } from './ch04E/NoLeakCounter'; 
+// import { FigureList as App } from './Figure/FigureList'; 
+import { FigureList as App } from './Figure/FigureListProps';
+
 
 export default App;

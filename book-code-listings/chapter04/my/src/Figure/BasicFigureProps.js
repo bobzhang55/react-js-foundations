@@ -12,7 +12,7 @@ class BasicFigureProps extends Component {
           />
           <figcaption>{this.props.caption}</figcaption>
         </figure>
-        
+
       </>
     );
   }
