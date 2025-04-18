@@ -1,7 +1,7 @@
 import React from "react";
 import createClass from "create-react-class";
 
-const UserProfile = createClass({
+export const UserProfile = createClass({
   render() {
     return (
       <>
@@ -12,4 +12,4 @@ const UserProfile = createClass({
   },
 });
 
-export default UserProfile;
+// export default UserProfile;

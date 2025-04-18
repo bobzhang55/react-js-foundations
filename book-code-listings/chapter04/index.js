@@ -5,7 +5,7 @@ export { default as SingleComponentCart } from "./my/src/ch04C/SingleComponentCa
 export { default as Farms } from "./Farm/Farms";
 export { default as Farm } from "./Farm/Farm";
 export { default as ImprovedFarms } from "./Farm/ImprovedFarms";
-export { default as CreateReactClass } from "./CreateReactClass";
+export { default as CreateReactClass } from "./my/src/ch04D/CreateReactClass";
 export { default as ReactClassComponent } from "./ReactClassComponent";
 export { default as UnboundFunction } from "./UnboundFunction";
 export { default as BoundFunction } from "./BoundFunction";
