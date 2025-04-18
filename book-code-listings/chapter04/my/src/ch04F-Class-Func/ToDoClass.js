@@ -1,6 +1,6 @@
 import React from "react";
 
-class ToDoClass extends React.Component {
+export class ToDoClass extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -40,10 +40,10 @@ class ToDoClass extends React.Component {
           <button type="submit">Add</button>
           {currentTodos}
         </form>
-        
+
       </>
     );
   }
 }
 
-export default ToDoClass;
+// export default ToDoClass;

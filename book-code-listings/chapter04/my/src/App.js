@@ -14,7 +14,11 @@ import './App.css';
 // import { LeakyCounter as App } from './ch04E/LeakyCounter'; 
 // import { NoLeakCounter as App } from './ch04E/NoLeakCounter'; 
 // import { FigureList as App } from './Figure/FigureList'; 
-import { FigureList as App } from './Figure/FigureListProps';
+// import { FigureList as App } from './Figure/FigureListProps';
+// import { ToDoClass as App } from './ch04F-Class-Func/ToDoClass';
+import { ToDoFunction as App } from './ch04F-Class-Func/ToDoFunction';
+
+
 
 
 export default App;

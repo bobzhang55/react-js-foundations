@@ -1,6 +1,6 @@
-import { useState } from "react";
+import React, { useState } from "react";
 
-export const ToDoFunctionSimple = (props) => {
+export function ToDoFunction(props) {
   const [item, setItem] = useState("");
   const [todolist, setTodoList] = useState([]);
 
@@ -25,7 +25,9 @@ export const ToDoFunctionSimple = (props) => {
         <button type="submit">Add</button>
         {currentTodos}
       </form>
-      
+
     </>
   );
-};
+}
+
+// export default ToDoFunction;
